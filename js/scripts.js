@@ -10,5 +10,9 @@ $(document).ready(function() {
 
       newArray.push(array[1], array[0], array[2]);
       console.log(newArray);
+
+      $("#results").append("<li>Your favorite color is " + array[0] + ".</li>");
+      $("#results").append("<li>Your favorite number is " + array[1] + ".</li>");
+      $("#results").append("<li>Your favorite OS is " + array[2] + ".</li>");
   });
 });
